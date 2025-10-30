@@ -3,7 +3,7 @@
 <br>
 Overview:
 <br>
-Jarvis is a python based voice assistant which can perform tasks like fetching news , getting weather updates , playing music using the music library module , opening websites like google & amazon and lastly it has a locally installed AI model (ollama lama3:8b) support for answering.
+Jarvis is a python based voice assistant which can perform tasks like fetching news , getting weather updates , playing music using the music library module , opening websites like google & amazon and lastly it has a locally installed AI model (ollama lama3:8b) support.
 <br>
 <br>
 Trigger-word:
