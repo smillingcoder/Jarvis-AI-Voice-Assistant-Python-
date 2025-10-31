@@ -1,51 +1,64 @@
-# Jarvis-AI voice assistant(python)
-<br>
-<br>
-Overview:
-<br>
-Jarvis is a python based voice assistant which can perform tasks like fetching news , getting weather updates , playing music using the music library module , opening websites like google & amazon and lastly it has a locally installed AI model (ollama lama3:8b) support.
-<br>
-<br>
-Trigger-word:
-<br>
+# Jarvis-AI Voice Assistant(Python)
+---
+
+**Overview:**
+
+Jarvis is a python based voice assistant which can perform tasks like fetching news , getting weather updates , playing music using the music library module , opening websites like google & amazon and lastly it has a locally installed AI model (ollama llama3:8b) support.
+
+---
+
+**Trigger-word:**
+
 Jarvis uses **“Jarvis”** as a **wake word** —  
 
 it stays passive until you say “Jarvis”, after which it actively listens for your next command.
-<br>
-<br>
-✨ Features:
-<br>
-🧠 AI-Powered Responses-->
 
-Integrated with the LLaMA model to generate smart and natural replies for general queries or conversations.
+---
 
-🗣️ Voice Recognition & Feedback-->
+✨ **Features:**
+
+🧠 _**AI-Powered Responses-->**_
+
+Integrated with the **LLaMA model** to generate smart and natural replies for general queries or conversations.
+
+🗣️_**Voice Recognition & Feedback-->**_
 
 Understands spoken commands using SpeechRecognition, and replies with pyttsx3 (offline text-to-speech engine).
 
-🌐 Smart Web Control-->
+🌐 _**Smart Web Control-->**_
 
-Opens popular websites like Google, YouTube, Amazon, and HiAnime using the Brave browser path set in .env.
+Opens popular websites like Google, YouTube and Amazon using the browser path set in .env.
 
-🎵 Music Playback-->
+🎵 _**Music Playback-->**_
 
-Plays songs from a custom musiclibrary.py file — just say “Jarvis, play [song name]”.
+Plays songs from a custom musiclibrary.py , you can add your own songs by editing musiclibrary module.
 
-📰 Live News Updates-->
+📰 _**Live News Updates-->**_
 
-Fetches and speaks top US news headlines using the News API, so you’re always up to date.
+Fetches and speaks top news headlines using the News API , currently set for US.
 
-☁️ Real-Time Weather-->
+☁️ _**Real-Time Weather-->**_
 
-Provides live weather and temperature updates through your custom Searchweather.py module.
+Provides live weather and temperature updates through your custom Searchweather.py module , currently set for Delhi but you can change it in code.
 
-⚙️ Modular & Extensible-->
+⚙️ _**Modular & Extensible-->**_
 
 Clean modular structure — easy to add new commands, APIs, or actions without touching core logic.
 
-🔒 Secure Configuration-->
+🔒 _**Secure Configuration-->**_
 
 All sensitive data like API keys and browser paths are stored safely in a .env file (excluded from GitHub).
 
+---
+
+**👨‍💻 Author
+
+_Sohum Tiwari_
+
+🎓 _B.Tech CSE (AIML) Student_
+
+---
+
+_**If you like this project, don't forget to ⭐ on the repo!**_
 
 
