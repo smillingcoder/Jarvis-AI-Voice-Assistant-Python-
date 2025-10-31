@@ -44,8 +44,11 @@ pip install -r requirements.txt
 -Make sure requirements.txt includes:
 
 speechrecognition
+
 pyttsx3
+
 requests
+
 python-dotenv
 
 (this will install all necessary python packages required to run jarvis)
@@ -57,7 +60,9 @@ python-dotenv
 -Create a .env file in your project root and add your keys and paths as shown in .env.example👇
 
 news_api_key=your_news_api_key_here
+
 weather_api_key=your_weather_api_key_here
+
 BRAVE_PATH=C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
 
 💡Resources:
@@ -101,6 +106,7 @@ Initializing jarvis....
 Listening...
 
 -Then say:
+
 🎤 "Jarvis" → it will reply "Yes?"
 
 Now give your command, like:
