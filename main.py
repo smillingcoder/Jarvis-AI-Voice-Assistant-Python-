@@ -39,7 +39,7 @@ def Processcommand(c):
         for i in titles:
             speak(i)     
     elif "weather" in c.lower():
-        speak(temperature("vadodara"))
+        speak(temperature("delhi"))
     else:
         speak(lama(c.lower()))
 if __name__=="__main__":
@@ -62,6 +62,7 @@ if __name__=="__main__":
                     Processcommand(command)
         except Exception as e:
             print("error;{0}".format(e))
+            
 
 
 
