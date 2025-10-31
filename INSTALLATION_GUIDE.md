@@ -69,7 +69,7 @@ BRAVE_PATH=C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
 
 📰 Get a free News API key from https://newsapi.org
 
-☁️ Get a free Weather API key from https://searchweathermap.org
+☁️ Get a free Weather API key from https://home.openweathermap.org/
 
 🦁 Update the Brave path if installed elsewhere or change it if you're using a different browser.
 
