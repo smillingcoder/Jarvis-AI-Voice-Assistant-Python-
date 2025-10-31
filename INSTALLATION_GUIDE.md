@@ -135,11 +135,11 @@ speak(temperature("your_city"))
 
 ## 👨‍💻 Author
 
-_**Sohum Tiwari**_  
+_Sohum Tiwari_  
 
-_**B.Tech CSE (AIML)🎓**_
+_B.Tech CSE (AIML)🎓_
 
 ---
 
-_**If you like my work, don’t forget to ⭐ on the repo!**_
+_**If you like this project, don't forget to ⭐ on the repo!**_
 
