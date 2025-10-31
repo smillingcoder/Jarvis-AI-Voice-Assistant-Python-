@@ -8,7 +8,11 @@ from lama3 import lama
 from dotenv import load_dotenv
 import os
 load_dotenv()
-brave_path=os.getenv("Brave_path")
+brave_path=os.getenv("BRAVE_PATH")
+if brave_path and os.path.exists(brave_path):
+    webbrowser.register('brave', None, webbrowser.BackgroundBrowser(brave_path))
+else:
+    print("⚠️ Brave browser path not found! Falling back to default browser.")
 newsapi=os.getenv("news_api_key")
 r=sr.Recognizer()
 def speak(text):
@@ -17,13 +21,13 @@ def speak(text):
     engine.runAndWait()
 def Processcommand(c):
     if "google" in c.lower():
-        webbrowser.get(brave_path).open("https://www.google.com")
+        webbrowser.get("brave").open("https://www.google.com")
     elif "youtube" in c.lower():
-        webbrowser.get(brave_path).open("https://www.youtube.com")
+        webbrowser.get("brave").open("https://www.youtube.com")
     elif "anime" in c.lower():
-        webbrowser.get(brave_path).open("https://hianime.to/home")
+        webbrowser.get("brave").open("https://hianime.to/home")
     elif "amazon" in c.lower():
-        webbrowser.get(brave_path).open("https://www.amazon.com")
+        webbrowser.get("brave").open("https://www.amazon.com")
     elif "play" in c.lower():
         song=c.lower().split()[1]
         link=musiclibrary.music[song]
