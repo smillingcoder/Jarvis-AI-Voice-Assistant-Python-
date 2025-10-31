@@ -143,7 +143,7 @@ speak(temperature("your_city"))
 
 _Sohum Tiwari_  
 
-_B.Tech CSE (AIML)🎓_
+_B.Tech CSE (AIML) Undergrad🎓_
 
 ---
 
