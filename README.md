@@ -21,7 +21,7 @@ it stays passive until you say “Jarvis”, after which it actively listens for
 
 Integrated with the **LLaMA model** to generate smart and natural replies for general queries or conversations.
 
-🗣️_**Voice Recognition & Feedback-->**_
+🗣️ _**Voice Recognition & Feedback-->**_
 
 Understands spoken commands using SpeechRecognition, and replies with pyttsx3 (offline text-to-speech engine).
 
@@ -51,11 +51,11 @@ All sensitive data like API keys and browser paths are stored safely in a .env f
 
 ---
 
-**👨‍💻 Author
+**👨‍💻 Author**
 
 _Sohum Tiwari_
 
-🎓 _B.Tech CSE (AIML) Student_
+ _B.Tech CSE (AIML) Student_🎓 
 
 ---
 
