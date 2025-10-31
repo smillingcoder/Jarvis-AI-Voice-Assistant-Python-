@@ -55,7 +55,7 @@ All sensitive data like API keys and browser paths are stored safely in a .env f
 
 _Sohum Tiwari_
 
- _B.Tech CSE (AIML) Student_🎓 
+ _B.Tech CSE (AIML) Student🎓_ 
 
 ---
 
