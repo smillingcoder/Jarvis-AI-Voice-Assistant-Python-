@@ -1,4 +1,4 @@
-# Jarvis-AI Voice Assistant(Python)
+# Jarvis-AI Voice Assistant(Python🐍)
 ---
 
 🧩**Overview:**
@@ -19,7 +19,7 @@ it stays passive until you say “Jarvis”, after which it actively listens for
 
 🧠 _**AI-Powered Responses**_
 
-Integrated with the **LLaMA model** to generate smart and natural replies for general queries or conversations.
+Integrated with the 🦙**LLaMA model** to generate smart and natural replies for general queries or conversations.
 
 🎙️ _**Voice Recognition & Feedback**_
 
